@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;800&family=Fasthand&family=Montserrat:wght@100&family=Raleway:wght@300&family=Roboto:ital,wght@1,300&family=Shalimar&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    font-family: 'Dosis', sans-serif;
+}
+nav{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+nav .logo a{
+    text-decoration: none;
+    color: black;
+}
+nav .onglets a{
+    text-decoration: none;
+    color: #555454;
+    margin-right: 10px;
+}
+nav .onglets a:hover{
+    text-decoration: underline;
+    color: black;
+}
+header{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-shadow: -4px 6px 29px -11px rgba(166,166,166,0.75);
+    -webkit-box-shadow:-4px 6px 29px -11px rgba(166,166,166,0.75);
+}
+header h3{
+    margin-top: -10px;
+}
+header button{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+header button:hover{
+    background-color: rgb(218,218,218);
+    color: black;
+}
+.cartes{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cartes .carte{
+    max-width: 600px;
+    border: 3px solid black;
+    margin-bottom: 40px;
+    padding: 20px;
+}
+.cartes .carte h1{
+    margin-top: 0px;
+    text-transform: uppercase;
+}
+.cartes .carte a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .droite{
+    display: flex;
+}
+footer .droite p{
+    margin-top: 0px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:640px) {
+    header{
+        margin-top: 20px; 
+    }
+    nav.logo{
+        margin-bottom: 10px;
+    }
+}
